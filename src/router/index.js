@@ -1,22 +1,26 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Vue from "vue";
+import VueRouter from "vue-router";
+//import MainPage from '../views/main-page.vue'
 
+Vue.use(VueRouter);
 
-Vue.use(VueRouter)
+function loadView(viewName) {
+  return () => import(`../views/${viewName}.vue`);
+}
 
-const router = new VueRouter({
-    routes : [
-        {
-            path : '/',
-            component : ''
-        },
-        {
-            path : '',
-            component : ''
-        },
-        {
-            path : '',
-            component : ''
-        }
-    ]
-})
+export const router = new VueRouter({
+  routes: [
+    {
+      path: "/",
+      component: loadView("main-page"),
+    },
+    {
+      path: "/introduce",
+      component: loadView("introduce"),
+    },
+    {
+      path: "/board/:pageName",
+      component: loadView("board"),
+    },
+  ],
+});
