@@ -54,7 +54,7 @@
           <div class="text-2xl font-medium mt-2">청춘</div>
           <div class="px-6">청춘의 열정으로 멈춤 없이 전진합니다.</div>
         </div>
-        <div class="border-r-2 w-full">
+        <div class="w-full">
           <div class="font-semibold text-gray-300 text-5xl">04</div>
           <div class="text-2xl font-medium mt-2">우리민족</div>
           <div class="px-6">8천만 민족이 통일의 주인입니다.</div>

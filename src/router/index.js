@@ -16,11 +16,13 @@ export const router = new VueRouter({
     },
     {
       path: "/introduce",
+      name: "introduce",
       component: loadView("introduce"),
     },
     {
-      path: "/board/:pageName",
-      component: loadView("board"),
+      path: "/study",
+      name: "study",
+      component: loadView("study"),
     },
   ],
 });

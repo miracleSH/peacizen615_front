@@ -8,19 +8,19 @@
       </div>
       <ul class="flex flex-col ustify-center items-start px-6 text-base font-bold gap-y-6">
         <li>
-          <router-link to="/introduce" replace>평화통일시민행동은</router-link>
+          <div @click="_goTo('introduce')" replace>평화통일시민행동은</div>
         </li>
         <li>
-          <router-link to="/board/activity-group" replace>활동소모임</router-link>
+          <div @click="_goTo('group')" replace>활동소모임</div>
         </li>
         <li>
-          <router-link to="/board/seminar" replace>강연회</router-link>
+          <div @click="_goTo('seminar')" replace>강연회</div>
         </li>
         <li>
-          <router-link to="/board/study-group" replace>연구소모임</router-link>
+          <div @click="_goTo('study')" replace>연구소모임</div>
         </li>
         <li>
-          <router-link to="/board/library" replace>자료실</router-link>
+          <div @click="_goTo('library')" replace>자료실</div>
         </li>
       </ul>
     </div>
@@ -36,7 +36,7 @@
             <a target="_blank" href="https://view.hyosungcms.co.kr/shorten-url/2s9Y6jJ3vt">정기후원</a>
           </li>
           <li>
-            <router-link to="/register">회원가입</router-link>
+            <div @click="_goTo('register')">회원가입</div>
           </li>
         </ul>
       </div>
@@ -59,6 +59,11 @@
 export default {
   data() {
     return {};
+  },
+  methods: {
+    _goTo(name) {
+      this.$router.push({ name: name });
+    },
   },
 };
 </script>
