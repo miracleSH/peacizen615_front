@@ -1,5 +1,5 @@
 <template>
-  <div class="container ml-4 w-full">
+  <div class="container px-6 w-full">
     <div class="justify-center w-96 mx-auto text-gray-400">
       <ul class="flex flex-row gap-x-3 mt-10 justify-center items-center border-b-2 border-gray-300">
         <li>
@@ -21,8 +21,8 @@
         <div class="justify-center mt-16">
           <h1 class="text-4xl text-center font-bold font-sans">평화통일시민행동은</h1>
         </div>
-        <div class="mt-6 pl-4 w-full h-full justify-center">
-          <img src="../assets/introduce.png" alt="introduce" />
+        <div class="mt-6 w-3/4 mx-auto h-full justify-center">
+          <img class="mx-auto" src="../assets/introduce.png" alt="introduce" />
         </div>
         <div class="w-16 border-t-2 border-black mx-auto"></div>
         <div class="justify-center text-center font-semibold text-3xl mt-10">

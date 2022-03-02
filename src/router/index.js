@@ -24,5 +24,20 @@ export const router = new VueRouter({
       name: "study",
       component: loadView("study"),
     },
+    {
+      path: "/group-activity",
+      name: "group-activity",
+      component: loadView("group-activity")
+    },
+    {
+      path: "/seminar",
+      name: "seminar",
+      component: loadView("seminar")
+    },
+    {
+      path: "/library",
+      name: "library",
+      component: loadView("library")
+    }
   ],
 });

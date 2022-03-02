@@ -8,19 +8,19 @@
       </div>
       <ul class="flex flex-col ustify-center items-start px-6 text-base font-bold gap-y-6">
         <li>
-          <div @click="_goTo('introduce')" replace>평화통일시민행동은</div>
+          <a class="cursor-pointer" @click="_goTo('introduce')" replace>평화통일시민행동은</a>
         </li>
         <li>
-          <div @click="_goTo('group')" replace>활동소모임</div>
+          <a class="cursor-pointer" @click="_goTo('group-activity')" replace>활동소모임</a>
         </li>
         <li>
-          <div @click="_goTo('seminar')" replace>강연회</div>
+          <a class="cursor-pointer" @click="_goTo('seminar')" replace>강연회</a>
         </li>
         <li>
-          <div @click="_goTo('study')" replace>연구소모임</div>
+          <a class="cursor-pointer" @click="_goTo('study')" replace>연구소모임</a>
         </li>
         <li>
-          <div @click="_goTo('library')" replace>자료실</div>
+          <a class="cursor-pointer" @click="_goTo('library')" replace>자료실</a>
         </li>
       </ul>
     </div>
