@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container px-6 w-full">
     library
   </div>
 </template>

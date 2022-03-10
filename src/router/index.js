@@ -15,6 +15,11 @@ export const router = new VueRouter({
       component: loadView("main-page"),
     },
     {
+      path: '/register',
+      name: 'register',
+      component: loadView('register')
+    },
+    {
       path: "/introduce",
       name: "introduce",
       component: loadView("introduce"),
