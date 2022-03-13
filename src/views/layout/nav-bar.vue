@@ -36,7 +36,7 @@
             <a target="_blank" href="https://view.hyosungcms.co.kr/shorten-url/2s9Y6jJ3vt">정기후원</a>
           </li>
           <li>
-            <div class="cursor-pointer" @click="_goTo('register')">회원가입</div>
+            <div class="cursor-pointer" @click="_goTo('register-introduce')">회원가입</div>
           </li>
         </ul>
       </div>
